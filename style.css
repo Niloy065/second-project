@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h1.h2.h3.h4.h5.h6{
+    font-family: "Roboto", serif;
+}
+
+header{
+    background-image: url(imgp3/school1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.nav-link:hover{
+    background-color: #104fb5;
+    color: white;
+    transform: scale(1.1);
+}
+
+.banner-content h1{
+    font-size: 3.5rem;
+    padding: 10px 20px;
+    background-color: rgba(59, 105, 179, 0.8);
+    font-family: "Handlee", cursive;
+}
+
+#feathures{
+    padding: 5% 10%;
+    background-color: #d6cebf;
+}
+
+.feathures-col{
+    border: 2px solid #eb15b5;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.feathures-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: #e607ae;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 230px;
+    margin: 0 auto;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+#about-me{
+    padding: 4% 10%;
+    background-color: #d6cebf;
+}
+
+#about-me p{
+    font-size: 0.9rem;
+    color: #363434;
+    margin-bottom: 0;
+}
+
+.star i{
+    width: 20px;
+    color: white;
+}
+
+#tutorial{
+    padding: 4% 10%;
+    background-color: #416a85;
+}
+.card{
+    transition: 0.4s;
+    border: 3px solid #db07c6;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+#feedback{
+    padding: 5%;
+    background-color: #7394bf;
+}
+
+.feedback-img{
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#contact{
+    padding: 2% 10%;
+    background-color: #7394bf;
+}
+
+footer{
+    padding: 1% 10%;
+    background: #0c1d38;
+}
+
+footer a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #f56111;
+}
